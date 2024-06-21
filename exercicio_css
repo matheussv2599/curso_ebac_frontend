@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portal de notícias</title>
+    <link rel="stylesheet" href="./maijn.css" />    <!--link usado para chamar o codigo do css-->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Meu portal de notícias</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sports" title="Ir para a seção de Esportes">Esportes</a>
+                    </li>
+                    <li>
+                        <a href="#Economia" title="Ir para a seção de Notícias">Economia</a>
+                    </li>
+                    <li>
+                        <a href="#Tecnologia" title="Ir para a seção de Tecnologia">Tecnologia</a>
+                    </li>
+                    <li>
+                        <a href="#Entretenimento" title="Ir para a seção de Entretenimento">Entretenimento</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <div class="container">
+            <section id="sports">
+                <h2>Esportes</h2>
+                <div class="articles">
+                    <article>
+                        <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
+                        <header>
+                            <time>13/07/2022 às 12:35</time>
+                        </header>
+                        <h3>Grande clássico na noite de hoje</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                        </p>
+                        <a href="#" title="Leia a notícia completa">Ler mais</a>
+                    </article>
+                    <article>
+                        <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
+                        <header>
+                            <time class="creation-date">13/07/2022 às 12:35</time>
+                        </header>
+                        <h3>Noite do Superbowl</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                        </p>
+                        <a href="#" title="Leia a notícia completa">Ler mais</a>
+                    </article>
+                    <article>
+                        <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                        <header>
+                            <time>13/07/2022 às 12:35</time>
+                        </header>
+                        <h3>Notícia sobre a NBA</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                        </p>
+                        <a href="#" title="Leia a notícia completa">Ler mais</a>
+                    </article>
+                </div>
+            </section>
+        </div>
+    <div class="container">
+        <section id="Economia">
+            <h2>Economia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Dólar em alta de 0.50%</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Euro em queda de 0.40%</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Alta no preço do barril do petróleo</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section id="Tecnologia">
+            <h2>Tecnologia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/processador.jpg" alt="processadores" />
+                    <header>
+                        <time>17/06/2024 às 21:00</time>
+                    </header>
+                    <h3>Novos processadores potentes surgem no mercado</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus veniam veritatis, iure nostrum sequi provident cumque, non quidem sed harum consequatur quibusdam aliquam. Beatae nulla tempora sunt tenetur, doloremque maxime?
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/inteligencia-artificial.jpg" alt="inteligencia-artificial" />
+                    <header>
+                        <time>19/06/2024 às 21:00</time>
+                    </header>
+                    <h3>Mais <i>I.A's</i> surgem com mais versatilidade</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis distinctio autem magnam aut eum a? Minima illum necessitatibus esse sed vel, voluptatibus dolorum itaque, velit aperiam sit molestias nulla adipisci?
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/mineracao.jpg" alt="mineracao de Bitcoins" />
+                    <header>
+                        <time>19/06/2024 às 21:04</time>
+                    </header>
+                    <h3>Mineiração de Bitcoins fica mais complexa por falta de hardware potentes</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam itaque facilis accusantium quod vel similique repudiandae maiores delectus! Quas velit sequi quos. Molestiae eos voluptatem nobis eius, illo ut a.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section id="Entretenimento">
+            <h2>Entretenimento</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/divertidamente2.jpg" alt="divertidamente2" />
+                    <header>
+                        <time>01/07/2024 às 14:12</time>
+                    </header>
+                    <h3><i>"Divertidamente 2"</i> tem lancamento histórico nas bilheterias do mundo!</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi corporis dignissimos praesentium est odit sequi sed suscipit vitae id aperiam repudiandae voluptatem fuga minima tempore, fugiat similique aspernatur aut dolor!
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/codbo6.png" alt="call of duty BO6" />
+                    <header>
+                        <time>01/07/2024 às 14:30</time>
+                    </header>
+                    <h3>Call of Duty Black Ops 6 lançará no xbox gamepass</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quod, repudiandae at deserunt voluptatem illum officia unde quo nostrum aliquid a ad eaque nihil commodi quia nobis fugiat dolore nesciunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/streaming.png" alt="streaming" />
+                    <header>
+                        <time>01/07/2024 às 15:15</time>
+                    </header>
+                    <h3>Mais plataformas de streaming surgem para saturar o mercado</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae provident quisquam perspiciatis excepturi quidem, cum dolorum omnis aut magni ea? Similique animi voluptas earum, unde nemo tempore harum rem quaerat.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
